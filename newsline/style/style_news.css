@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+    .news_text{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    padding: 10px;
+    color: #6d6d6d00;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Cuprum', sans-serif;   
+    }
+    .news_text:hover{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    padding: 10px;
+    color: #cacaca;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Cuprum', sans-serif;   
+    }
