@@ -32,3 +32,9 @@
     width: 600px;
     object-fit: cover;
 }
+.first_page_img{   
+    position: relative;
+    max-width: 610px;
+    width: 600px;
+
+}
