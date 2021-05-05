@@ -1,0 +1,33 @@
+.first_page{
+    display: flex;
+    text-indent: 40px;
+    text-align: justify;
+    color: rgb(231, 226, 211);
+    font-weight: 400;
+	font-size: 18px;
+    line-height: 30px;
+    margin: 35px 0 15px 0;
+}
+.first_page_text1{
+    text-align: end;
+    margin: 0;
+}
+.first_page_text2{
+    text-indent: 40px;
+    text-align: justify;
+    color: rgb(231, 226, 211);
+    font-weight: 400;
+	font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.first_page img{   
+    margin: 0;
+    margin-left: 40px;
+    border: 3px solid rgb(233, 222, 203);
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    width: 600px;
+    object-fit: cover;
+}
