@@ -1,0 +1,148 @@
+.footer{
+    max-width: 100pc;
+    min-height: 60px;
+    max-height: 100px;
+    background-color: #0f0f11;
+    margin: 5px auto auto auto;
+    padding: 30px;
+    display: block;
+    border-radius: 5px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Cuprum', sans-serif;
+}
+.logo img{
+    margin-top: 15px;
+    float: left;
+    max-width: 220px;
+}
+.footer_button1{
+    display: inline-block;
+    vertical-align: middle;  
+    line-height: 1.25;
+	background-color: #0f0f11;
+	max-width: 100pc;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 30px;
+	font-family: 'Oswald', sans-serif;
+}
+.footer_button1 a:hover{
+	background-color: #ff0036;
+	transition: 0.4s all;
+	padding: 5px 35px 5px 5px;
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;  
+}
+.icon img{
+    background-color: #3d3d41;
+    border-radius: 10px;
+    height: 45px;
+    margin: 0 5px;
+}
+.icon img:hover{
+    background-color: #ff0036;
+    transition: 0.4s all;
+    padding: 0 2px;
+}
+.footer p{
+    float: right;
+}
+
+@media(max-width:1700px){
+    .footer p{
+
+        font-size: 18px;
+    }
+}
+@media(max-width:1500px){
+    .footer{
+        height: 100%;
+        padding: 30px;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer_button1{
+        padding: 8px 20px;
+    }
+    .icon img{
+        margin-top: 5px;
+        height: 40px;
+    }
+}
+@media(max-width:1300px){
+    .footer{
+        height: 100%;
+        padding: 20px;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer_button1{
+        padding: 8px 15px;
+    }
+    .icon img{
+        margin-top: 10 px;
+        height: 35px;
+    }
+}
+@media(max-width:960px){
+    .footer{
+        height: 100%;
+        padding: 20px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+    .footer_button1{
+        padding: 5px 10px;
+    }
+    .icon img{
+        margin-top: 10 px;
+        height: 35px;
+    }
+    .logo img{
+        display: none;
+ }
+}
+@media(max-width:750px){
+    .footer{
+        height: 100%;
+        padding: 10px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer_button1{
+        padding: 2px 5px;
+    }
+    .icon img{
+        margin-top: 10px;
+        height: 30px;
+    }
+    .logo img{
+        display: none;
+ }
+}
+@media(max-width:600px){
+    .footer{
+        height: 100%;
+        padding: 5px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer_button1{
+        padding: 2px 5px;
+    }
+    .icon img{
+        margin-top: 10px;
+        height: 20px;
+    }
+    .logo img{
+        display: none;
+ }
+}
