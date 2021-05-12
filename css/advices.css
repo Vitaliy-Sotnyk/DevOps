@@ -1,0 +1,45 @@
+.adviced_table{
+    position: relative;
+    display: block;
+    width: 100%;
+    border-spacing: 20px;
+    border-color: aliceblue;
+    border: 0;
+}
+.adviced_table img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(233, 222, 203);
+}
+.adviced_table a{ 
+    width: 100%;
+    color: #6d6d6d00;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Cuprum', sans-serif;   
+}
+.advices_info{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 20px;
+    
+}
+.advices_info:hover{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 20px;
+    color: #cacaca;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Cuprum', sans-serif;   
+    
+}

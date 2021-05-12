@@ -114,7 +114,7 @@
         padding: 10px;
     }
     .footer p{
-        font-size: 12px;
+        display: none;
     }
     .footer_button1{
         padding: 2px 5px;
@@ -123,26 +123,13 @@
         margin-top: 10px;
         height: 30px;
     }
-    .logo img{
-        display: none;
- }
 }
 @media(max-width:600px){
     .footer{
         height: 100%;
         padding: 5px;
     }
-    .footer p{
-        font-size: 10px;
-    }
     .footer_button1{
         padding: 2px 5px;
     }
-    .icon img{
-        margin-top: 10px;
-        height: 20px;
-    }
-    .logo img{
-        display: none;
- }
 }

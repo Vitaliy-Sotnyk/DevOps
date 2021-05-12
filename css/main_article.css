@@ -2,6 +2,7 @@
     background-color: rgb(53, 53, 53);
     color: rgb(221, 203, 170) ;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
     padding: 20px 80px;
 }
 .title_autor_img{

@@ -1,0 +1,65 @@
+.cattalog{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.cattalog p{
+    color: white;
+    font-weight: 400;
+	font-size: 24px;
+    line-height: 28px;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 20px 10px 20px;
+}
+.game_list input[name="submit_game"]{
+    display: block;
+    position: relative;
+    width: 120px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+	font-size: 24px;
+    line-height: 28px;
+    font-family: 'Oswald', sans-serif;
+    background: #ff0036;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    margin: 37px auto 0 auto;
+}
+.game_list input[name="submit_game"]:hover{
+    background: #ff1649;
+}
+
+.game_list{
+    position: relative;
+    width: 33%;
+    padding-top: 32px;
+    text-align: center;
+}
+.game_list[id="game_list1"], .game_list[id="game_list2"], .game_list[id="game_list3"]{
+    padding-top: 15px;
+}
+select[name="select_type_of_game"]{
+    bottom: 0;
+    width: 90%;
+    height: 60px;
+    background-color: #e7f0ed;
+    border-radius: 10px;
+    border: 5px solid rgb(100,100,100);
+    color: #000000c7;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Cuprum', sans-serif;
+    padding: 10px;
+}
+@media(max-width:900px){
+    .game_list{
+        width: 50%;
+    }
+        .game_list[id="game_list3"]{
+        padding-top: 32px;
+    }
+}
