@@ -155,15 +155,19 @@
         line-height: 18px;
     }
 }
-@media(max-width:760px){
+@media(max-width:600px){
     .reting{
+        position: relative;
+        display: flex;
         padding:3px;
+        
     }
     .reting img{
         height: 60px;
     }
     .submit_reset input[name="submit"] {
         width: 70px;
+        margin: 10px 0 0 0;
         padding: 2px;
         color: white;
         font-weight: 400;
@@ -172,6 +176,7 @@
     }
     .submit_reset input[name="reset"] {
         width: 80px;
+        margin: 10px 0 0 0;
         padding: 2px;
         color: white;
         font-weight: 400;
