@@ -50,62 +50,64 @@
                         <div class="igroup">
                         <div class="communication" id="communication">
                             <img src="../icons/icons8-user-male.png"  alt>
-                            <input type="text" maxlength="40" name="name" class="communication_input" placeholder="Введіть ім'я та прізвище"> 
+                            <input type="text" maxlength="40" name="names" id="names"  placeholder="Введіть ім'я та прізвище"> 
                         </div>
                         <div class="communication" id="communication">
                             <img src="../icons/icons8-email.png"  alt>
-                            <input type="text" maxlength="40" name="email" class="communication_input" placeholder="Введіть Вашу e-mail адресу"> 
+                            <input type="text" maxlength="40" name="email" id="email"  placeholder="Введіть Вашу e-mail адресу"> 
                         </div>
                         <div class="communication" id="communication">
                             <img src="../icons/icons8-regular-document.png"  alt>
-                            <input type="text" maxlength="50" name="subject" class="communication_input" placeholder="Введіть тему листа">
+                            <input type="text" maxlength="50" name="subject" id="subject" placeholder="Введіть тему листа">
                         </div>
                         </div>
                         <div class="submit_btn" id="submit_btn">
-                            <button name="send_btn" class="send_btn" type="submit">Відправити</button>
+                            <input type="button" value="Готово" name="submit_game" id="submit_game" onclick="valid()">
                         </div>
                         <div class="communication_text" id="communication_text">
                             <div class="comm_text_img">
                                 <img src="../icons/icons8-edit-message-64.png"  alt>
                             </div>
                             <div class="comm_text">
-                            <textarea name="massage" class="communication_input" rows="7" placeholder="   Введіть повідомлення..."></textarea>
+                            <textarea name="messages" id="messages"  rows="7" placeholder="   Введіть повідомлення..."></textarea>
                             </div>
                         </div> 
                         <div class="submit_btn_two" id="submit_btn_two">
-                                <button name="send_btn" class="send_btn" type="submit">Відправити</button>
+                                <input type="button" value="Готово" name="submit_game" id="submit_game" onclick="valid()">
                             </div>
+                            <script src="../js/script.js"></script>
                     </form>
                     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-                    <script src="../js/"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
             </div>
         </div>          
         <div class="news_line" id="news_line">
-                <div class="first_news">
-                    <a href="">
-                  <img src="../newsline/image/1.jpg"  alt>
-                  <div class="first_news_text" >
-             <embed src="../newsline/first_news_text.html" height="342px"  width="240px" position="absolute" >
-                   </div>
-               </a>
-                   </div>
-               <div class="second_news">
-                       <a href="">
-                     <img src="../newsline/image/2.jpg"  alt>
-                     <div class="second_news_text" >
-                       <embed src="../newsline/second_news_text.html" height="342px"  width="240px" position="absolute" >
-                      </div>
-                  </a>
+            <div class="first_news">
+                <a href="../newsline/1/1.html">
+              <img src="../newsline/image/1.jpg"  alt>
+              <div class="first_news_text" >
+         <embed src="../newsline/first_news_text.html" height="342px"  width="240px" position="absolute" >
+               </div>
+           </a>
+               </div>
+           <div class="second_news">
+            <a href="../newsline/2/2.html">
+                 <img src="../newsline/image/2.jpg"  alt>
+                 <div class="second_news_text" >
+                   <embed src="../newsline/second_news_text.html" height="342px"  width="240px" position="absolute" >
                   </div>
-               <div class="third_news">
-                   <a href="">
-                     <img src="../newsline/image/3.jpg"  alt>
-                     <div class="third_news_text" >
-                       <embed src="../newsline/third_news_text.html" height="342px"  width="240px" position="absolute" >
-                      </div>
-                   </a>
-                   </div>
-           </div>
+              </a>
+              </div>
+           <div class="third_news">
+               <a href="../newsline/3/3.html">
+                 <img src="../newsline/image/3.jpg"  alt>
+                 <div class="third_news_text" >
+                   <embed src="../newsline/third_news_text.html" height="342px"  width="240px" position="absolute" >
+                  </div>
+               </a>
+               </div>
+       </div>
     </div>
      
     <div class="footer wrap" id="footer">

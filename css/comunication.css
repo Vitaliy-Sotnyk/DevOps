@@ -83,7 +83,7 @@
 .submit_btn_two{
     display: none;
 }
-.submit_btn button, .submit_btn_two button{
+.submit_btn input, .submit_btn_two input{
     display: block;
     position: absolute;
     border-radius: 10px;
@@ -96,7 +96,7 @@
     font-family: 'Oswald', sans-serif;
     background-color: hsl(0, 0%, 58%, 0.5);
 }
-.submit_btn button:hover, .submit_btn_two button:hover{
+.submit_btn input:hover, .submit_btn_two input:hover{
     background-color: hsla(347, 100%, 50%, 0.7);
 	transition: 0.8s all;
 }
@@ -105,7 +105,7 @@
     .submit_btn{
         margin: 60px auto auto 40px;
     }
-    .submit_btn button{
+    .submit_btn input{
         width: 180px;
     }
 }
@@ -126,7 +126,7 @@
     .submit_btn{
         margin: 60px auto auto 150px;
     }
-    .submit_btn button{
+    .submit_btn input{
         width: 150px;
         font-size: 24px;
         line-height: 32px;
@@ -164,7 +164,7 @@
     .submit_btn_two{
         margin: 50px auto auto auto;
     }
-    .submit_btn_two button{
+    .submit_btn_two input{
         display: block;
         position: relative;
         height: 100px;
